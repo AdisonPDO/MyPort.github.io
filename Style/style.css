@@ -1,0 +1,240 @@
+/*--------------------------------------------------NavBar--------------------------------------*/
+
+/*--------------------------------------------------Acueil--------------------------------------*/
+.text { 
+    color: red;
+} 
+#centralBlocAcueil {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+#txtAcueil {
+    margin-bottom: 0px;
+}
+  #myPicture { 
+      max-width: 600px;
+      max-height: 600px;
+      -webkit-filter: grayscale(100%); 
+      filter: grayscale(100%);
+      transition: transform .2s;
+      width: 100%;
+      height: auto; 
+      margin: auto; 
+  }
+  #myPicture:hover {
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);
+    transform: scale(1.05);
+  }
+  p { 
+      font-size: 1.5vh;
+  }
+  @media screen and (max-width: 1024px) {
+      #centralBlocAcueil {
+          flex-direction: column-reverse;
+          width: 100%;
+          margin-top: 0%;
+      }
+      p {
+          font-size: 1.5vh;
+      }
+      #txtAcueil { 
+          padding: 1%;
+          margin-top: 1%;
+      }
+  }
+/*--------------------------------------------------Exp--------------------------------------*/
+@keyframes example {
+    from   {left:0px; top:0px; opacity: 0;}
+    to  {left:200px; top:0px;opacity: 1;}
+  }
+  @keyframes TopMove {
+    from   {top:-200px; left:0px; opacity: 0;}
+    to  {top:0px; left:0px;opacity: 1;}
+  }
+
+.bloc1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    margin: 10px;
+
+}
+.bloc2 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+    margin: 10px;
+
+}
+.bloc3 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+    margin: 10px;
+
+}
+.reduce { 
+    width: 100%;
+    height: 100%;
+}
+
+.centralCorp { 
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+}
+.expCard { 
+    text-align: start;
+    margin: 3%;
+    width: 50%;
+}
+.centralCorp p {
+    font-size: 1.5vh;
+}
+.blocCard {
+    display: flex;
+}
+hr.solid {
+    border-top: 1px solid #bbb;
+    width: 70%;
+    margin-bottom: 10%;
+  }
+.titleSkill{ 
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+/*--------------------------------------------------Project--------------------------------------*/
+
+.projectBloc {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+.projectDetail {
+    width: 70%;
+    text-align: center;
+}
+.projectTech {
+    display: flex;
+    flex-direction: column;
+}
+.projectTech img { 
+    margin: 10px;
+}
+#restPic { 
+    width: 100%;
+    height: auto;
+}
+.blocV1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: TopMove;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    margin: 1%;
+
+}
+.blocV2 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: TopMove;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+    margin: 1%;
+
+}
+.blocV3 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: TopMove;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+    margin: 1%;
+
+}
+.blocV4 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: TopMove;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.9s;
+    opacity: 0;
+    margin: 1%;
+
+}
+.blocV5 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: TopMove;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.2s;
+    opacity: 0;
+    margin: 1%;
+
+}
+.projectTitle {
+    text-align: center;
+}
+
+.cookPic {
+    max-width: 300px;
+    height: auto;
+}
+
+
+/*--------------------------------------------------Contact--------------------------------------*/
+
+.net { 
+    max-width: 15%;
+    height: auto;
+    margin: 1%;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    transition: transform .2s;
+    z-index: 100;
+}
+.net:hover {
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+.netBloc {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin: 1%;
+}
