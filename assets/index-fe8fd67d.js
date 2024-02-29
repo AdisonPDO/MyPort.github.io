@@ -3577,7 +3577,7 @@ No matching component was found for:
               max-w-3xl sm:leading-[24px] leading-[18px]
               font-poppins tracking-[1px]`,children:t}),se.jsxs("p",{className:`text-wite sm:text-[14px] text-[12px] 
               max-w-3xl sm:leading-[24px] leading-[18px]
-              font-poppins tracking-[1px]`,children:["Site : ",f!==void 0?se.jsxs("a",{className:"underline",href:"https://perfumist.fr",children:[" ",e]}):"Désactivé"]}),se.jsxs("div",{className:"inset-0 flex justify-end m-3",children:[se.jsx("div",{onClick:()=>window.open(d,"_blank"),className:` sm:w-11 sm:h-11 w-10 h-10 rounded-full 
+              font-poppins tracking-[1px]`,children:["Site : ",f!==void 0?se.jsxs("a",{className:"underline",href:f,children:[" ",e]}):"Désactivé"]}),se.jsxs("div",{className:"inset-0 flex justify-end m-3",children:[se.jsx("div",{onClick:()=>window.open(d,"_blank"),className:` sm:w-11 sm:h-11 w-10 h-10 rounded-full 
                   flex justify-center items-center
                   sm:opacity-[0.9] opacity-[0.8]`,children:se.jsx("img",{src:Cj,alt:"Play store",className:"w-4/5 h-4/5 object-contain"})}),se.jsx("div",{onClick:()=>window.open(h,"_blank"),className:`sm:w-11 sm:h-11 w-10 h-10 
                   flex justify-center items-center cursor-pointer
